@@ -43,6 +43,13 @@ print (a//b) # -3
 print (math.floor(a/b)) # -3
 print (math.trunc(a/b)) # -3
 
-
-
+# mod operator
+# equation a = b*(a//b) + (a %b)
+a = 13
+b =-4
+print('__________')
+print('{0}/{1} = 2'.format(a, b, a/b)) 
+print('{0}//{1} = 2'.format(a,b, a//b))
+print('{0}%{1} = {2}'.format(a, b, a%b))
+print( a == b * (a//b) + (a%b))
 
